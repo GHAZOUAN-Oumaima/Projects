@@ -1,0 +1,9 @@
+<script language='javascript'>
+function ConfirmerAge()
+{
+if (confirm("Confirmez vous avoir "+ formulaire.age.value +" ans ?"))
+{
+formulaire.submit();
+}
+}
+</script>
