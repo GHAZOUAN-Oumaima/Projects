@@ -1,0 +1,65 @@
+body{
+    background: url('images/nature.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    max-width: 380px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+    border-radius: 20px;
+    padding: 40px;
+    color: #fff;
+
+}
+h2{
+    color: #ffF;
+    text-align: center;
+    text-transform:capitalize;
+
+
+}
+input{
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 6px;
+    font-size: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: #fff solid;
+}
+button{
+    width: 80%;
+    border-radius:12px ;
+    padding: 10px;
+    background-color:rgb(24, 204, 228) ;
+    color: #fff ;
+    font-size:20px ;
+    font-weight: bold;
+    cursor:pointer ;
+    outline: none;
+}
+input[type="submit"] {
+    background-color: rgb(24, 204, 228); /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur */
+    border: none; /* Suppression de la bordure */
+    border-radius: 4px; /* Arrondi des coins */
+    cursor: pointer; /* Curseur au survol */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(24, 204, 228); /* Couleur de fond au survol */
+  }
+ 
+  
+  
+  
+  

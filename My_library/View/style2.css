@@ -1,0 +1,179 @@
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.card {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+.card-body {
+    padding: 10px;
+}
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.card-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    border-bottom: none; /* Supprime la bordure inférieure */
+  }
+  
+  /* Style des liens <a> */
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  
+  /* Style au survol des liens <a> */
+  nav ul li a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  .hero{
+    font-family: 'Anek Odia', sans-serif;
+    min-height: 90vh;
+    background: linear-gradient(90deg, rgb(24, 204, 228), #24262b);	
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    color: rgb(246, 246, 246);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+nav ul{
+    min-height: 10vh;
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.main-head{
+    font-family: 'Anek Odia', sans-serif;
+    background: #24262b;}
+
+    html {
+        font-size: 62,5%;
+    }
+    
+    h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
+        font-family: "poppins-semibold", sans-serif;
+        color: rgb(24, 204, 228);
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+        margin-bottom: 2.1rem;
+        
+    }
+    h3, .h03, h4, .h04 {
+        margin-bottom: 1.8rem;
+    }
+    h5, .h05, h6, .h06 {
+        font-family: "poppins-bold";
+        margin-bottom: 1.2rem;
+    }
+    h1, .h01 {
+        font-size: 3.1rem;
+        line-height: 1.355;
+        letter-spacing: -.1rem;
+    }
+    li{
+        font-size: 1.2rem;
+    }
+    a, a:visited {
+        color: #FFF;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    a:hover, a:focus, a:active {
+        color: rgb(24, 204, 228);
+        outline: 0;
+    }
+    
+    @media only screen and (max-width:600px) {
+        h1, .h01 {
+            font-size: 2.6rem;
+            letter-spacing: -.07rem;
+        }
+    }
+    h2, .h02 {
+        font-size: 2.4rem;
+        line-height: 1.25;
+    }
+    h3, .h03 {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    h4, .h04 {
+        font-size: 1.7rem;
+        line-height: 1.765;
+    }
+    h5, .h05 {
+        font-size: 1.4rem;
+        line-height: 1.714;
+        text-transform: uppercase;
+        letter-spacing: .15rem;
+    }
+    h6, .h06 {
+        font-size: 1.3rem;
+        line-height: 1.846;
+        text-transform: uppercase;
+        letter-spacing: .15rem;
+    }
+    .hero{
+        font-family: 'Anek Odia', sans-serif;
+        min-height: 90vh;
+        background: linear-gradient(90deg, rgb(24, 204, 228), #24262b);	
+        background-size: cover;
+        background-position: bottom;
+        display: flex;
+        color: rgb(246, 246, 246);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }

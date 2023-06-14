@@ -1,0 +1,82 @@
+<!DOCTYPE <html>
+    <html lang="en">
+      
+        
+        
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport " content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title> Ajouter un manuel </title>
+            
+            <link rel="stylesheet" href="style4.css">
+            <link rel="stylesheet" href="style3.css">
+            <link rel= "stylesheet" href="form_style.css">
+            <link rel="stylesheet" href="style2.css">
+            <style>body{background: url('images/nature.jpeg')};</style>
+            
+          
+        </head>
+        
+
+        <body>
+          <header class="main-head">
+            <nav>
+                <h1>My_Library</h1>
+                <ul>
+                    <li></li>
+                    <li><a href="index.php" id="home">Accueil</a></li>
+                </ul>
+            </nav>
+        </header>
+          <section>
+            <form action="../Controller/control.inc.php"  method="post">
+          <div class="container">
+            <div class="screen">
+                <div class="container">
+            
+                <form action="../Controller/control.inc.php" method="post" autocomplete="off" enctype="multipart/form-data">
+                <input type="text" name="titre_manuel" placeholder="titre...." required><br>
+                <input type="text" name="description" placeholder="description...." required><br>
+                <input type="text" name="matière" placeholder="matière...." required><br>
+                <input type="text" name="niveau" placeholder="niveau...." required><br>
+                <input type="text" name="édition" placeholder="édition...." required><br>
+                <input type="text" name="prix" placeholder="prix...." required><br>
+                <input type="text" name="quantité_de_stock" placeholder="quantité de stock...." required><br>
+                
+                <input type="submit" name="action" value="valid_add"><br>
+                </form>
+            </div>
+            </div>
+         
+            
+          </form></section>
+            <footer>
+                <div class="contact-info">
+                  <div class="info-item">
+                    <div class="icon">
+                      <i class="fa fa-map-marker"></i>
+                    </div>
+                    <h5>Vous allez nous trouver à</h5>
+                    <p>Madinat Al Irfane - Rabat<br>80000 Morocco</p>
+                  </div>
+                  <div class="info-item">
+                    <div class="icon">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                    <h5>Envoyez-nous un mail sur</h5>
+                    <p><a href="mailto:oumaghazouan@gmail.com">oumaghazouan@gmail.com</a><br>
+                       <a href="mailto:oumayma070502@gmail.com">oumayma070502@gmail.com</a></p>
+                  </div>
+                  <div class="info-item">
+                    <div class="icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <h5>Appelez-nous sur</h5>
+                    <p class="phone-number">Phone: (+212) 13 58 99 88</p>
+                  </div>
+                </div>
+              </footer>
+        </body>
+    </html>
+</html>

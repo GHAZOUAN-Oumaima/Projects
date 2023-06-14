@@ -1,0 +1,78 @@
+
+  /* Style du footer */
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  
+
+
+}
+
+/* Style des éléments de contact */
+footer .contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+footer .contact-info .info-item {
+  flex-basis: 100%;
+  margin-bottom: 10px;
+}
+
+footer .contact-info .icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Style des éléments de texte de contact */
+footer .contact-info h5 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #fff;
+}
+
+footer .contact-info p {
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+}
+
+/* Style pour le numéro de téléphone */
+footer .contact-info .phone-number {
+  font-weight: bold;
+}
+
+/* Style pour les liens de contact */
+footer .contact-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .contact-info a:hover {
+  text-decoration: underline;
+}/* Style des éléments <li> */
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    border-bottom: none; /* Supprime la bordure inférieure */
+  }
+  
+  /* Style des liens <a> */
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  
+  /* Style au survol des liens <a> */
+  nav ul li a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+    
